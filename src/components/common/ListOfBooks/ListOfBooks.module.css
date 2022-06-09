@@ -1,0 +1,17 @@
+.title {
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  border-bottom: 1px solid white;
+  font-size: 28px;
+}
+
+.list {
+  padding: 40px 0;
+}
+.list ul li {
+  color: #676463;
+}
+
+/*# sourceMappingURL=ListOfBooks.module.css.map */

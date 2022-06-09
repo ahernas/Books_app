@@ -1,11 +1,17 @@
 .root {
-  background-color: #e6dec9;
+  background-color: #9aa3a2;
 }
 
 .buttonBox {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.numberPage {
+  padding-bottom: 30px;
+  text-align: center;
+  color: #676463;
 }
 
 /*# sourceMappingURL=BooksPage.module.css.map */

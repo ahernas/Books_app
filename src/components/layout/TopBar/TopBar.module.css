@@ -4,13 +4,11 @@
 
 .boxTopBar {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 90px;
+  justify-content: flex-end;
 }
 
 .list {
+  height: 90px;
   padding-right: 30px;
 }
 .list ul {
@@ -29,7 +27,7 @@
 .list ul li a {
   letter-spacing: 2px;
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   text-decoration: none;
 }
 .list ul li a:hover {

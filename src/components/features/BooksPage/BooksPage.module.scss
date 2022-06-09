@@ -1,11 +1,17 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  background-color: $color-light;
+  background-color: $color-grey;
 }
 
 .buttonBox {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.numberPage {
+  padding-bottom: 30px;
+  text-align: center;
+  color: $color-text;
 }

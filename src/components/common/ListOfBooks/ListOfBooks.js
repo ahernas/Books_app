@@ -16,7 +16,7 @@ const ListOfBooks = ({page}) => {
 
   return (
     <>
-      <div className={styles.title}>Books to read before you die:</div>
+      <div className={styles.title}></div>
       <div className={styles.list}>
         {books.map((book) => (
           <ul key={book.id}>

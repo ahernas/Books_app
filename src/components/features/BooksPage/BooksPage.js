@@ -11,6 +11,7 @@ const BooksPage = props => {
     <div className={styles.root}>
       <div className="container">
         <ListOfBooks page={props.page}/>
+        <div className={styles.numberPage}>- {props.page} -</div>
         <div className={styles.buttonBox}>
           <ButtonPrevious page={props.page}/>
           <ButtonNext page={props.page}/>

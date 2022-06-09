@@ -1,0 +1,28 @@
+.root {
+  background-color: #e6dec9;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box img {
+  max-width: 600px;
+}
+.box .text {
+  font-weight: 700;
+  font-size: 65px;
+}
+.box .btnJoin {
+  font-weight: 500;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  width: 250px;
+  padding: 10px;
+  background-color: #6a7675;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

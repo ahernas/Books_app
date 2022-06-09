@@ -1,16 +1,20 @@
 @import '../../../styles/settings';
 
-
 .title {
+  padding: 40px 0;
   text-align: center;
-  color: $color-text;
+  color: white;
   font-weight: 500;
-  border-bottom: 1px solid $color-top;
-  padding-top: 50px;
-  font-size: 22px;
-  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  font-size: 28px;
 }
 
 .list {
-  padding: 30px 0;
+  padding: 40px 0;
+
+  ul {
+    li {
+      color: $color-text;
+    }
+  }
 }

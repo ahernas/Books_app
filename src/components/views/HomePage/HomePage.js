@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import TopBar from '../../layout/TopBar/TopBar';
 import BooksPage from '../../features/BooksPage/BooksPage';
+import Header from '../../layout/Header/Header';
 
 const HomePage = props => {
   console.log(props.match);
@@ -11,6 +12,7 @@ const HomePage = props => {
   return (
     <div>
       <TopBar />
+      <Header/>
       <BooksPage page={isNaN(pageParam) ? 1 : pageParam} />
     </div>
   );
