@@ -2,6 +2,10 @@
 
 .root {
   background-color: $color-light;
-  height: 500px;
 }
 
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

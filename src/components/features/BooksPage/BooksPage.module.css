@@ -1,6 +1,11 @@
 .root {
   background-color: #e6dec9;
-  height: 500px;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 /*# sourceMappingURL=BooksPage.module.css.map */
