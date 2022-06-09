@@ -1,0 +1,17 @@
+@import '../../../styles/settings';
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    color: white;
+    border: none;
+    background-color: $color-grey-dark;
+    margin-right: 20px;
+    padding: 5px;
+  }
+}
