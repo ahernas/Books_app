@@ -1,0 +1,17 @@
+.root {
+  background-color: #e6dec9;
+  padding: 40px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-size: 26px;
+  padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=SearchBox.module.css.map */

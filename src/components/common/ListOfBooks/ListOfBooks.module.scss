@@ -1,12 +1,22 @@
 @import '../../../styles/settings';
 
 .title {
-  padding: 40px 0;
-  text-align: center;
-  color: white;
-  font-weight: 500;
-  border-bottom: 1px solid white;
-  font-size: 28px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  .text {
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+  }
 }
 
 .list {

@@ -16,7 +16,11 @@ const ListOfBooks = ({page}) => {
 
   return (
     <>
-      <div className={styles.title}></div>
+      <div className={styles.title}>
+        <div className={styles.line}/>
+        <div className={styles.text}>Books to read before you die</div>
+        <div className={styles.line}/>
+      </div>
       <div className={styles.list}>
         {books.map((book) => (
           <ul key={book.id}>

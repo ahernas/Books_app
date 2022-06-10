@@ -1,0 +1,16 @@
+@import "../../../styles/settings";
+
+
+.root {
+  background-color: $color-light;
+  padding: 40px 0;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.title {
+  font-size: 26px;
+  padding-bottom: 30px;
+}
