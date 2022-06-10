@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["ListOfBooks.module.scss","../../../styles/settings.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;;;AAIJ;EACE;;AAGE;EACE,OCvBO","file":"ListOfBooks.module.css"}
+{"version":3,"sourceRoot":"","sources":["ListOfBooks.module.scss","../../../styles/settings.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;;;AAIJ;EACE;;AAEA;EACE;EACA;;AACA;EACE;EACA;;AAEA;EACE,OC3BU;;AD8Bd;EACE,OCjCO","file":"ListOfBooks.module.css"}

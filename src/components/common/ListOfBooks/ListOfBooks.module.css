@@ -20,6 +20,17 @@
 .list {
   padding: 40px 0;
 }
+.list ul {
+  display: flex;
+  flex-direction: row;
+}
+.list ul .icon {
+  color: white;
+  padding-right: 30px;
+}
+.list ul .icon:hover {
+  color: #6a7675;
+}
 .list ul li {
   color: #676463;
 }

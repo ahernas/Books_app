@@ -2,6 +2,9 @@ import React, {useEffect, useState} from 'react';
 import styles from './ListOfBooks.module.scss';
 import PropTypes from 'prop-types';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faHeart} from '@fortawesome/free-solid-svg-icons';
+
 const ListOfBooks = ({page}) => {
 
   const [books, setBooks] = useState([]);
@@ -24,6 +27,7 @@ const ListOfBooks = ({page}) => {
       <div className={styles.list}>
         {books.map((book) => (
           <ul key={book.id}>
+            <a href='#'><FontAwesomeIcon className={styles.icon} icon={faHeart}/></a>
             <li>{book.title}</li>
           </ul>
         ))
