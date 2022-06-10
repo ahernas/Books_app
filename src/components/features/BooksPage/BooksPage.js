@@ -6,9 +6,9 @@ import ButtonNext from '../../common/ButtonNext/ButtonNext';
 import ButtonPrevious from '../../common/ButtonNext/ButtonPrevious';
 
 const BooksPage = props => {
-  console.log(`to: ${props.page}`);
+
   return (
-    <div className={styles.root}>
+    <div id="books-box" className={styles.root}>
       <div className="container">
         <ListOfBooks page={props.page}/>
         <div className={styles.numberPage}>- {props.page} -</div>

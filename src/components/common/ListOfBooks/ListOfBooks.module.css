@@ -31,6 +31,7 @@
 .list ul li {
   color: #676463;
   font-size: 18px;
+  max-width: 80%;
 }
 
 /*# sourceMappingURL=ListOfBooks.module.css.map */

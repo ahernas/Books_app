@@ -14,7 +14,6 @@ const ButtonPrevious = ({page}) => {
     newPage = 1;
   }
 
-  console.log(`ppks ${newPage}`);
   return (
     <Route render={({history}) => (
       <button className={styles.btn} type='button'

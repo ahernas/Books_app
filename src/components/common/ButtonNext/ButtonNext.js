@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 const ButtonNext = ({page}) => {
 
   const newPage = page + 1;
-  console.log(`ssks ${newPage}`);
+
   return (
     <Route render={({history}) => (
       <button className={styles.btn} type='button'

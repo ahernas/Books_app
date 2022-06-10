@@ -1,0 +1,13 @@
+.root {
+  background-color: #0c2533;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  color: white;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

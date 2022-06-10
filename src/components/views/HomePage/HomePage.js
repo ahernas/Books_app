@@ -5,9 +5,9 @@ import TopBar from '../../layout/TopBar/TopBar';
 import BooksPage from '../../features/BooksPage/BooksPage';
 import Header from '../../layout/Header/Header';
 import SearchBox from '../../features/SearchBox/SearchBox';
+import Footer from '../../layout/Footer/Footer';
 
 const HomePage = props => {
-  console.log(props.match);
 
   const pageParam = parseInt(props.match.params.page);
   return (
@@ -16,6 +16,7 @@ const HomePage = props => {
       <Header/>
       <BooksPage page={isNaN(pageParam) ? 1 : pageParam} />
       <SearchBox inf={props}/>
+      <Footer/>
     </div>
   );
 };

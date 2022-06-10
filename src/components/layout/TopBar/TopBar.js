@@ -7,10 +7,10 @@ const TopBar = () => (
       <div className={'d-flex align-items-center ' + styles.list}>
         <ul>
           <li>
-            <a href="/">books</a>
+            <a href="#books-box">books</a>
           </li>
           <li>
-            <a href="/">search</a>
+            <a href="#search-box">search</a>
           </li>
           <li>
             <a href="/">favorite</a>

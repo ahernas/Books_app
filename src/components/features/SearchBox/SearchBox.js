@@ -34,7 +34,7 @@ class SearchBox extends React.Component {
   render() {
 
     return (
-      <div className={styles.root}>
+      <div id="search-box" className={styles.root}>
         <div className='container'>
           <div className={styles.box}>
             <div className={styles.title}>Search a book: </div>

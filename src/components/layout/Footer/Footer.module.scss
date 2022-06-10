@@ -1,0 +1,13 @@
+@import '../../../styles/settings';
+
+.root {
+background-color: $color-top;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  color: white;
+}

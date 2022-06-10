@@ -29,12 +29,12 @@
     &:hover {
       li {
         color: white;
-
       }
     }
     li {
       color: $color-text;
       font-size: 18px;
+      max-width: 80%;
     }
   }
 }
