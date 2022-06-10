@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import styles from './ListOfBooks.module.scss';
 import PropTypes from 'prop-types';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faHeart} from '@fortawesome/free-solid-svg-icons';
+import AddToFavorites from '../AddToFavorites/AddToFavorites';
+import AddToRead from '../AddToRead/AddToRead';
 
 const ListOfBooks = ({page}) => {
 
@@ -27,8 +27,11 @@ const ListOfBooks = ({page}) => {
       <div className={styles.list}>
         {books.map((book) => (
           <ul key={book.id}>
-            <a href='#'><FontAwesomeIcon className={styles.icon} icon={faHeart}/></a>
             <li>{book.title}</li>
+            <div className={styles.fonts}>
+              <AddToRead/>
+              <AddToFavorites/>
+            </div>
           </ul>
         ))
         }

@@ -25,16 +25,16 @@
   ul {
     display: flex;
     flex-direction: row;
-    .icon {
-      color: white;
-      padding-right: 30px;
+    justify-content: space-between;
+    &:hover {
+      li {
+        color: white;
 
-      &:hover {
-        color: $color-grey-dark;
       }
     }
     li {
       color: $color-text;
+      font-size: 18px;
     }
   }
 }

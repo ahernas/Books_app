@@ -23,16 +23,14 @@
 .list ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
-.list ul .icon {
+.list ul:hover li {
   color: white;
-  padding-right: 30px;
-}
-.list ul .icon:hover {
-  color: #6a7675;
 }
 .list ul li {
   color: #676463;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=ListOfBooks.module.css.map */

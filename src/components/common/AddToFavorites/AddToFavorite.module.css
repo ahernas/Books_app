@@ -1,0 +1,13 @@
+.icon {
+  padding-right: 30px;
+  color: #6a7675;
+}
+.icon:hover {
+  color: white;
+}
+
+.active .icon {
+  color: white;
+}
+
+/*# sourceMappingURL=AddToFavorite.module.css.map */

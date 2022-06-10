@@ -1,0 +1,17 @@
+@import "../../../styles/settings.scss";
+
+.icon {
+  padding-right: 30px;
+  color: $color-grey-dark;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.active {
+
+  .icon {
+    color: white;
+  }
+}
